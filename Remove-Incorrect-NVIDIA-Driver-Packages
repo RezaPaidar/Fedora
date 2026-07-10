@@ -1,0 +1,11 @@
+Remove Incorrect NVIDIA Driver Packages
+
+First, remove the incompatible driver packages:
+
+Command:
+    sudo dnf remove -y akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-cuda-libs
+
+Note:
+- At one point, removing `*nvidia*` also affected related components and caused temporary issues
+  with audio, internet, and graphics behavior.
+- System recovery was done before continuing.
