@@ -1,0 +1,9 @@
+Check Secure Boot
+
+Secure Boot must be disabled for RPM Fusion NVIDIA drivers to work properly.
+
+Command:
+    mokutil --sb-state
+
+Expected result:
+    SecureBoot disabled
