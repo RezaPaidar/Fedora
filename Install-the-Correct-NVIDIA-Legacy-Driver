@@ -1,0 +1,8 @@
+Install the Correct NVIDIA Legacy Driver
+
+For GTX 750 Ti, install the 580xx legacy packages:
+
+Command:
+    sudo dnf install -y akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx xorg-x11-drv-nvidia-580xx-libs xorg-x11-drv-nvidia-580xx-cuda
+
+These packages are the correct legacy branch for Maxwell-era cards like GTX 750 Ti.
