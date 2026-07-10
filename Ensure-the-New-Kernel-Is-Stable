@@ -1,0 +1,18 @@
+Ensure the New Kernel Is Stable
+
+Before reinstalling NVIDIA drivers, the system was stabilized on the new kernel:
+
+Current running kernel:
+    uname -r
+
+Verified output:
+    7.1.3-200.fc44.x86_64
+
+At this stage:
+- Audio was working
+- Internet was working
+- System booted normally
+- The monitor remained connected to the motherboard/iGPU
+
+Important:
+Do not connect the monitor to the NVIDIA card before the correct driver is installed and verified.
