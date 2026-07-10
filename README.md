@@ -5,9 +5,7 @@ GPU: NVIDIA GeForce GTX 750 Ti
 Driver Series: NVIDIA 580xx Legacy
 Status: Successful
 
-======================================================================
-1) Goal
-======================================================================
+**1) Goal**
 
 This document records the steps used to:
 
@@ -18,9 +16,7 @@ This document records the steps used to:
 5. Verify that NVIDIA is working correctly
 6. Extend display to dual monitors
 
-======================================================================
-2) Initial Problem
-======================================================================
+**2) Initial Problem**
 
 The system did not properly recognize the NVIDIA GTX 750 Ti.
 
