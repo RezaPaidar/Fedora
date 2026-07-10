@@ -1,5 +1,4 @@
-#Fedora 44 - Kernel Upgrade, Old Kernel Cleanup, and NVIDIA GTX 750 Ti Driver Installation
-Author: Reza
+Fedora 44 - Kernel Upgrade, Old Kernel Cleanup, and NVIDIA GTX 750 Ti Driver Installation
 System: Fedora 44
 GPU: NVIDIA GeForce GTX 750 Ti
 Driver Series: NVIDIA 580xx Legacy
